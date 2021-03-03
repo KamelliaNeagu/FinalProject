@@ -1,0 +1,27 @@
+{
+  "name": "finalproject",
+  "version": "1.0.0",
+  "description": "Final Project | Front End - Online Ecommerce",
+  "main": "index.js",
+  "scripts": {
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KamelliaNeagu/FinalProject.git"
+  },
+  "keywords": [
+    "FRONTEND",
+    "SCOALA",
+    "INFORMALA",
+    "HTML",
+    "CSS",
+    "JS"
+  ],
+  "author": "Kamellia Neagu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KamelliaNeagu/FinalProject/issues"
+  },
+  "homepage": "https://github.com/KamelliaNeagu/FinalProject#readme"
+}
