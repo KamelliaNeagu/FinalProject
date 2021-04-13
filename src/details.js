@@ -1,8 +1,6 @@
 import { http } from './http.js';
 import { ui } from './ui.js';
 
-// document.addEventListener('DOMContentLoaded', getDetails);
-
 window.onload = () => {
     if (window.location.search !== '') {
         const id = window.location.search.split('=')[1];
@@ -11,5 +9,6 @@ window.onload = () => {
             .then((data) => ui.showDetails(data));	
     }
 }
+
 
 

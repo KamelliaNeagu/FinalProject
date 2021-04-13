@@ -1,31 +1,25 @@
-import { http } from './http.js';
 import { ui } from './ui.js';
+import { getCartFromLocalStorage } from './localStorage.js';
 
-// Get Products on DOM load
-window.onload = () => {
-    if (window.location.search !== '') {
-        const id = window.location.search.split('=')[1];
-        http
-            .get(`http://localhost:3000/products/${id}`)
-            .then((data) => ui.showProductsCart(data));	
-    }
+document.addEventListener('DOMContentLoaded', () => {
+  let storageItems = getCartFromLocalStorage();
+  ui.showProductsCart(storageItems);
+  console.log("total = " + getCartTotal(storageItems));
+  storageItems.forEach((item) => {console.log("subtotal: "+getElementSubtotal(item));})
+});
+
+function getCartTotal (storageItems) {
+	let total = 0;
+	for (let item of storageItems) {
+		let numberOfProducts = parseInt(item.count);
+		let productPrice = parseInt(item.product.price);
+		total = total + numberOfProducts * productPrice;
+	}
+	return total;
 }
 
-let addtocartBtn = document.getElementById('addtocartBtn');
-
-localStorage.setItem('products', `${id}`);
-
-detailsDiv.addEventListener('click', saveProductsFromCart);
-
-function saveProductsFromCart() {
-	localStorage.setItem('products', `${id}`);
-	localStorage.setItem('products', product);
-	localStorage.setItem('products', JSON.stringify(product));
-}
-
-addtocartBtn.addEventListener('click', getProductsFromCart);
-
-function getProductsFromCart() {
-	const products = JSON.parse(localStorage.getItem('products'));
-	console.log(products);
+function getElementSubtotal (storageElement) {
+	let numberOfProducts = parseInt(storageElement.count);
+	let productPrice = parseInt(storageElement.product.price);
+	return numberOfProducts*productPrice;
 }

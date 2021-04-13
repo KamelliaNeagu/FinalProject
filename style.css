@@ -68,6 +68,232 @@ body {
 
 /* Index */
 
+.head{
+	width:300px;
+	height:300px;
+	border-radius:100%;
+	background:#3c9dca;
+	border: black solid thick;
+    margin-left: 38%;
+}
+
+.white{
+    width: 262px;
+    height: 231px;
+    border-radius: 100%;
+    position: relative;
+    top: 45px;
+    left: 15px;
+    background: #FFF;
+    border: black solid thin;
+    z-index: 0;
+}
+
+.eye_white {
+    position: relative;
+    top: 19px;
+    left: 82px;
+    z-index: 1;
+}
+
+.eye_white li{
+    width: 63px;
+    height: 76px;
+    border-radius: 100%;
+    background: #FFF;
+    list-style:none;
+    border: black solid thin;
+    display:block;
+    float:left;
+}
+
+.eye_black{
+    width: 13px;
+    height: 23px;
+    border-radius: 100%;
+    background: #000;
+    list-style:none;
+    top: 40px;
+    position:relative;
+    border: black solid thin;
+    display:block;
+    left: 5px;
+    -webkit-animation:move 6s ease infinite;
+    animation:move 6s ease infinite;
+}
+
+@-webkit-keyframes move {
+    16%{top:48px;left:15px;}
+    32%{top:50px;left:30px;}
+    48%{top:40px;left:45px}
+    64%{top:50px;left:30px}
+    80%{top:48px;left:15px}
+}
+
+@keyframes move {
+    16%{top:48px;left:15px;}
+    32%{top:50px;left:30px;}
+    48%{top:40px;left:45px}
+    64%{top:50px;left:30px}
+    80%{top:48px;left:15px}
+}
+
+.eye_black::before{
+	content:'';
+    width: 5px;
+    height: 7px;
+    border-radius: 100%;
+    background: #fff;
+    list-style: none;
+    top: 8px;
+    position: relative;
+    display: block;
+    left: 4px;
+}
+
+.line_left{
+    width: 75px;
+    height:1px;
+    transform:rotate(20deg);
+    top: 45px;
+    left: 7px;
+    position:relative;
+    border-radius: 10%;
+    background: #000;
+    list-style: none;
+    display: block;
+}
+
+.line_left::before{
+    content:'';
+    width: 75px;
+    height:1px;
+    top: 45px;
+    transform:rotate(-20deg);
+    position:relative;
+    border-radius: 10%;
+    background: #000;
+    list-style: none;
+    display: block;
+}
+
+.line_left::after{
+    content:'';
+    transform:rotate(-40deg);
+    width: 75px;
+    height:1px;
+    top: 60px;
+    left: 15px;
+    position:relative;
+    border-radius: 10%;
+    background: #000;
+    list-style: none;
+    display: block;
+}
+
+.line_right{
+    width: 75px;
+    height:1px;
+    transform:rotate(160deg);
+    top: 45px;
+    left: 185px;
+    position:relative;
+    border-radius: 10%;
+    background: #000;
+    list-style: none;
+    display: block;
+}
+
+.line_right::before{
+    content:'';
+    width: 75px;
+    height:1px;
+    bottom: 50px;
+    position:relative;
+    transform:rotate(30deg);
+    border-radius: 10%;
+    background: #000;
+    list-style: none;
+    display: block;
+    left:10px;
+}
+
+.line_right::after{
+    content:'';
+    width: 75px;
+    height:1px;
+    bottom: 25px;
+    transform:rotate(10deg);
+    left: 0px;
+    position:relative;
+    border-radius: 10%;
+    background: #000;
+    list-style: none;
+    display: block;
+}
+
+.nose{
+    width: 23px;
+    height: 23px;
+    border-radius: 100%;
+    background: #b90319;
+    list-style: none;
+    top: 30px;
+    position: relative;
+    border: black solid thin;
+    display: block;
+    left: 118px;
+    z-index:2;
+}
+
+.nose::after{
+    content: '';
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+    background: #FFF;
+    list-style: none;
+    top: 10px;
+    position: relative;
+    border: black solid thin;
+    display: block;
+    left: 5px;
+}
+
+.line_vertical{
+    width: 1px;
+    height: 155px;
+    top: 20px;
+    left: 129px;
+    position: relative;
+    border-radius: 10%;
+    background: #000;
+    z-index: 1;
+}
+
+.mouth{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    top: -179px;
+    left: 20px;
+    position: relative;
+    background: #000;
+    z-index: -1;
+}
+
+.mouth::after{
+    content: '';
+    width: 201px;
+    height: 201px;
+    top: -2px;
+    left: -1px;
+    border-radius: 100%;
+    position: relative;
+    display: block;
+    background: #FFF;
+}
+
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
 @import url(https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.4.3/css/mdb.min.css);
 /* @import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700'); */
@@ -147,7 +373,7 @@ body {
 /* Details */
 
 #wrapper {
-    height: 420px;
+    height: 450px;
     width: 654px;
     margin: 50px auto;
     border-radius: 7px 7px 7px 7px;
@@ -159,7 +385,7 @@ body {
   
 .product-img {
     float: left;
-    height: 420px;
+    height: 450px;
     width: 327px;
 }
   
@@ -171,15 +397,10 @@ body {
   
 .product-info {
     float: left;
-    height: 420px;
+    height: 450px;
     width: 327px;
     border-radius: 0 7px 10px 7px;
     background-color: #ffffff;
-}
-  
-.product-text {
-    height: 300px;
-    width: 327px;
 }
   
 .product-text h1 {
@@ -195,7 +416,7 @@ body {
 }
   
 .product-text h2 {
-    margin: 0 0 30px 38px;
+    margin: 0 0 10px 38px;
     font-size: 13px;
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
@@ -206,7 +427,7 @@ body {
   
 .product-text p {
     height: 150px;
-    margin: 0 0 0 38px;
+    margin: 0 10px 0 38px;
     font-family: 'Playfair Display', serif;
     color: #8d8d8d;
     line-height: 1.7em;
@@ -242,10 +463,58 @@ span {
     font-size: 25px;
 }
 
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.popup .popuptext {
+    visibility: hidden;
+    width: 160px;
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, Arial, sans-serif; 
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
+}
+
+.popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+.popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s
+}
+
+.added {
+    background-color: green;
+    display: inline;
+}
+
 /* Admin & Cart */
 
 h3 {
     color: black;
+}
+
+input[type=number] {
+    color: gray;
+    text-align: right;
 }
 
 .admin-container, #cart {

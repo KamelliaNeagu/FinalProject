@@ -6,6 +6,7 @@
       "price": 48,
       "image": "Images/acolo_unde_nu_mai_e_trotuar.jpg",
       "description": "Lumea lui Shel Silverstein începe acolo unde nu mai e trotuar. În ea facem cunoștință cu un băiat care se transformă în televizor și cu o fată care mănâncă o balenă întreagă. Aici trăiesc Unicornul și Brișul, dar și copii ca Smărăndița Smărăndoiu, care nu ducea gunoiul, sau Dorel, care toată viața nu și-a dorit nimic altceva decât dorințe. E o lume în care îți speli umbra și plantezi diamante în grădină, unde ghetele zboară și crocodilii merg la dentist.",
+      "stoc": 400,
       "id": 1
     },
     {
@@ -14,6 +15,7 @@
       "price": 33,
       "image": "Images/ariciul_in_ceata.jpg",
       "description": "Ariciul, acest simpatic filozof din familia Erinaceidelor, s-a născut acum 45 de ani în Rusia ca personaj de desene animate. Filmul de animație Ariciul în ceață a câștigat, în 1976, locul întâi la două festivaluri importante de filme pentru copii, iar în 2003, 140 de creatori de filme de animație reuniți în Tokyo l-au votat drept cel mai bun film de animație al tuturor timpurilor. Ariciul a devenit apoi și personaj de carte. Tradusă în mai multe limbi, povestea lui a ajuns în scurt timp bestseller internațional.",
+      "stoc": 400,
       "id": 2
     },
     {
@@ -22,6 +24,7 @@
       "price": 30,
       "image": "Images/aventurile_lui_tom_sawyer.jpg",
       "description": "Soarta e foarte crudă cu Tom: mătușa Polly îl pedepsește la fiecare pas, frumoasa Becky îl trădează, orele de la școală sunt lungi, iar el tânjește după libertate. Așa că într-o zi se hotărăște să fugă de-acasă și să se facă pirat. Să vadă ei atunci, toți cei care l-au necăjit, cât îi vor mai simți lipsa. Dar cum rămâne cu scena crimei la care a fost martor? Cum rămâne cu ucigașul rămas liber și cu bărbatul închis pe nedrept? Și, când Tom află că Joe Indianul ascunde pe undeva prin oraș o adevărată avere, lucrurile devin pe cât de complicate, pe atât de palpitante. Pirat și haiduc, indiferent ce-ar face, Tom nu se plictisește în orășelul de pe Mississippi, iar prietenii lui, Huck și Joe, sunt mereu gata să-i fie alături în orice aventură.",
+      "stoc": 400,
       "id": 3
     },
     {
@@ -30,6 +33,7 @@
       "price": 35,
       "image": "Images/baiatul_cu_rochie.jpg",
       "description": "Tatăl și fratele lui îl ceartă când află că citește revista Vogue, dar Dennis e înnebunit să analizeze în detaliu croiala rochiilor din poze. Când se împrietenește cu Lisa, cea mai frumoasă fată din școală, băiatul are acces la o lume cum doar visa: rochii, pantofi, machiaj – le poate încerca pe toate în camera fetei, care împărtășește aceeași pasiune pentru modă. Numai că nu-i întotdeauna un lucru ușor să-ți urmezi pasiunile: când înclinația pentru modă îl aduce în situația de a fi exmatriculat, Dennis nu mai poate participa la campionatul de fotbal al școlii –o situație care cere o soluție de-a dreptul ieșită din tipare!",
+      "stoc": 400,
       "id": 4
     },
     {
@@ -38,6 +42,7 @@
       "price": 35,
       "image": "Images/calatoriile_lui_gulliver.jpg",
       "description": "Publicat pentru prima dată în 1726, romanul satiric de aventuri scris de Jonathan Swift este minunat repovestit de Martin Jenkins şi ilustrat de Chris Riddell în această ediţie. Ilustraţiile nemaipomenite dau viaţă oamenilor şi creaturilor pe care Gulliver le întâlneşte în cele patru călătorii: în Lilliput, ţara piticilor, şi în Brobdingnag, ţara uriaşilor; în Laputa, unde locuitorii trebuie loviţi cu beţe în cap ca să-şi amintească să vorbească, în Glubbdubdrib, insula duhurilor şi a magicienilor; şi, în cele din urmă, în regatul houyhnhnm-ilor, unde caii sunt stăpânii oamenilor.",
+      "stoc": 400,
       "id": 5
     },
     {
@@ -46,6 +51,7 @@
       "price": 29,
       "image": "Images/care_i_faza_cu_cititul_juniorii.jpg",
       "description": "Au curs poveştile valuri-valuri. Care mai mari, care mai mici, cu rânduri mai lungi sau mai scurte, cu veselii sau cu tristeţi, cu năstruşnicii ori cu năzdrăvănii, făcute de băieţi sau fete de numai opt ani sau de alţii aproape de două ori mai vârstnici ca ei, scrise unele cu migală, altele-ntr-un iureş. Şi din noianul de poveşti s-au ales frumoasele, şi-apoi frumoasele frumoaselor, literă cu literă, rând cu rând şi poveste cu poveste. Poftă la citit!",
+      "stoc": 400,
       "id": 6
     },
     {
@@ -54,6 +60,7 @@
       "price": 29,
       "image": "Images/ce_poti_face_cu_doua_cuvinte.jpg",
       "description": "Scriitori: Larisa Tufeanu, Teodora Vaman, Matei Bumbuţ, Maria Nicolae, Ştefana Fusaru, Ana Octavia Georoceanu, Alexandru Nicolaie, Maria Ioana Oană, Antonia Maria Ilieş, Laurian David Pop, Anda Papiţă, Horia Andrei Muraru, Bianca Raicu, Ioana Drogeanu, Luca Olteanu, Ioana Maftei, Ştefan Alexandru Toader, Tania Berbecea, Ana Constantinescu, Ioana Cojocariu, George Stoia. Ilustratori: Eliza Culca, Diana Dragomir, Denisa Ştefana Medan, Alexandra Minea, Ioana Miu, Oana Nedelcu, Iasmina Răceanu, Carla Maria Rusu, Bianca Şoica, Maria Ecaterina Târnavschi.",
+      "stoc": 400,
       "id": 7
     },
     {
@@ -62,6 +69,7 @@
       "price": 35,
       "image": "Images/copacul_dorintelor.jpg",
       "description": "Prietenii îi spun Roșu. Lumea din cartier îl numește „copacul dorințelor“. Există un motiv în spatele acestui nume. Totul a început demult, pe vremea când Roșu nu era decât o sămânță minusculă cu aspirații mari. Vin la el oameni din tot orașul și îl împodobesc cu bucăți de hârtie, etichete cu șiret, fâșii de pânză și fire de lână. Fiecare dintre aceste ofrande reprezintă un vis, o dorință, o năzuință. Agățate, aruncate la întâmplare sau legate cu fundiță, toate sunt speranțe pentru ceva mai bun.",
+      "stoc": 400,
       "id": 8
     },
     {
@@ -70,6 +78,7 @@
       "price": 35,
       "image": "Images/cui_i_e_frica_de_computer.jpg",
       "description": "Vei găsi, în cartea de faţă, scrisă de oameni un pic mai mari pentru oameni un pic mai mici, cărarea care te va purta prin „vremurile de odinioară“, din „era pretehnologică“, prin amintirile buclucaşe ale primelor întâlniri cu balaurul din reţea şi capriciile vieţii pixelate până la fanteziile „minunatei lumi noi“ Au scris pentru voi: Florin Bican, Marius Chivu, Florin Dumitrescu, Ioana Nicolaie, Ioana Pârvulescu, Ion Manolescu, Liviu Ornea, Elena Vlădăreanu, Tudor Călin Zarojanu, Daniela Kluz, Doina Ruşti, Ana Maria Sandu, Matei Sâmihăian, Fanny Chartres, Gruia Dragomir, Laura Grünberg, Vlad Zografi",
+      "stoc": 400,
       "id": 9
     },
     {
@@ -78,6 +87,7 @@
       "price": 29,
       "image": "Images/din_7_in_7_paperback.jpg",
       "description": "Willow Chance e o fetiță de doisprezece ani cu o minte de geniu, obsedată de natură și de stabilirea diagnosticelor medicale. Dacă e agitată, se liniștește numărând din 7 în 7. Nu i-a fost niciodată ușor să lege prietenii, iar cei mai apropiați oameni sunt chiar părinții ei adoptivi. Din 7 în 7 este o carte emoționantă despre cum e să fii diferit, despre cum se poate face față unei imense pierderi, despre ce înseamnă cu adevărat o familie.",
+      "stoc": 400,
       "id": 10
     },
     {
@@ -86,6 +96,7 @@
       "price": 69,
       "image": "Images/din_marile_legende_ale_lumii.jpg",
       "description": "„Din marile legende ale lumiiˮ este o carte de neratat. Alexandru Mitru repovestește unele dintre cele mai frumoase poeme epice și legende ale lumii, valorificând, în cazul creațiilor anonime, cele mai îndepărtate izvoare literare, pe care le aduce astfel mai aproape de cititori.",
+      "stoc": 400,
       "id": 11
     },
     {
@@ -94,6 +105,7 @@
       "price": 25,
       "image": "Images/doctor_ox_un_oras_plutitor.jpg",
       "description": "„Rupt din vârtejul timpului, uitat de cartografi, micul oraş Quiquendone îşi desfăşoară existenţa autonomă, lină, netulburată şi mai ales tăcută sub administrarea familiei van Tricasse. Aura de poveste nu-i lipseşte, căci industria oraşului e axată pe fabricarea unor cantităţi uriaşe de frişcă şi acadele. E cadrul perfect pentru experimentul ştiinţific revoluţionar al doctorului Ox: construirea uzinei pentru producerea unui gaz modern de iluminat, gazul oxidric. Odată cu înaintarea lucrărilor pentru iluminarea oraşului, lucrurile iau însă o turnură neaşteptată. Feţele se aprind, iar locuitorii - altădată calmi, moderaţi şi echilibraţi - încep să gesticuleze, să se înghesuie, să se certe, ba chiar să se încaiere. Să fie oare vreo legătură între experimentul doctorului Ox şi teribila invazie a răului?",
+      "stoc": 400,
       "id": 12
     },
     {
@@ -102,6 +114,7 @@
       "price": 25,
       "image": "Images/domnisoara_miau.jpg",
       "description": "„De când a cunoscut-o pe domnișoara Miau, viața lui Tibbe s-a schimbat mult. Înainte era un tânăr ziarist timid, cât pe ce să fie dat afară de la slujbă pentru că scria doar articole despre pisici. Acum este... ei, e tot la fel de timid, dar măcar domnișoara Miau îi spune care sunt noutățile din oraș și e tot mai apreciat la ziar și în comunitate. Nu se știe de unde află domnișoara Miau atâtea secrete și, dacă stai bine să te gândești, e cam ciudat că petrece așa de mult timp pe acoperiș, printre pisici, sau că se urcă speriată în primul copac care-i iese în cale dacă aude un câine lătrând, dar lui Tibbe nu-i pasă – lui îi plac pisicile.",
+      "stoc": 400,
       "id": 13
     },
     {
@@ -110,6 +123,7 @@
       "price": 35,
       "image": "Images/emil_si_detectivii.jpg",
       "description": "Emil călătorește pentru prima dată cu trenul de unul singur. A pornit dintr-un orășel de provincie și vrea să ajungă la Berlin. Este entuziasmat, dar are și ceva emoții: trebuie să aibă grijă de plicul cu bani pe care mama i l-a pus în buzunar. Aventurile care se nasc de aici deschid o cale nouă în literatura pentru copii, Emil și detectivii fiind un roman polițist în toată regula.",
+      "stoc": 400,
       "id": 14
     },
     {
@@ -118,6 +132,7 @@
       "price": 49,
       "image": "Images/harry_potter_si_camera_secretelor.jpg",
       "description": "Harry Potter are o vară plină: petrece o zi de naștere groaznică, primește avertizări sinistre de la un elf de casă pe nume Dobby și fuge de la familia Dursley cu mașina zburătoare a prietenului său Ron. La Hogwarts începe un nou an școlar, iar Harry aude niște șoapte ciudate pe coridoarele goale. Apoi au loc mai multe atacuri misterioase – previziunile sumbre ale lui Dobby par să se adeverească...",
+      "stoc": 400,
       "id": 15
     },
     {
@@ -126,6 +141,7 @@
       "price": 43,
       "image": "Images/harry_potter_si_piatra_filosofala.jpg",
       "description": "La Hogwarts, Harry Potter nu învață doar să folosească bagheta sau să zboare pe mătură: descoperă că binele ascunde o latură obscură și că în rău sălășluiește o fărâmă de bine. Îl impresionează pe Dumbledore, îi face față lui Snape și îi rezistă în mod miraculos lui Voldemort. Iar alături de Hermione, Ron și Hagrid, reușește să aducă lumina acolo unde s-a înstăpânit cel mai adânc întuneric.",
+      "stoc": 400,
       "id": 16
     },
     {
@@ -134,6 +150,7 @@
       "price": 35,
       "image": "Images/heidi_fetita_muntilor.jpg",
       "description": "Heidi este o fetiţă rămasă în grija bunicului, un bătrân care trăieşte în munţi, departe de oameni. Are un suflet mare şi îi sunt dragi atât ciobănaşul Peter și caprele lui, cât și bunicul cel ursuz. Ajunsă la familia Sesemann din Frankfurt, Heidi, cu firea ei zburdalinică, nu rezistă prea mult în peisajul sterp de la oraș și se întoarce curând la casa din munți. Aerul curat și peisajele frumoase schimbă felul de a vedea viața al celor care ajung acolo fie și numai o singură dată.",
+      "stoc": 400,
       "id": 17
     },
     {
@@ -142,6 +159,7 @@
       "price": 111,
       "image": "Images/jurnalul_unui_pusti_volumele_1_4.jpg",
       "description": "Cărțile din seria „Jurnalul unui puști” s-au vândut în 200 de milioane de exemplare în toată lumea, au fost traduse în 60 de limbi și sunt citite în 140 de țări. Nu e deloc ușor să fii puști. Și nimeni nu știe asta mai bine decât Greg Heffley. Pericolele care te așteaptă când vrei să scapi de copilărie mai repede decât ar fi cazul sunt foarte bine ilustrate de cuvintele și desenele din jurnalul ținut cu sfințenie de Greg. Plină de un umor contagios și de poante presărate pe fiecare pagină, desenată impecabil și perfect adaptată universului copilăriei, Jurnalul unui puști a dominat topul bestsellerurilor New York Times, rămânând pe locul întâi vreme de 114 săptămâni",
+      "stoc": 400,
       "id": 18
     },
     {
@@ -150,6 +168,7 @@
       "price": 33,
       "image": "Images/marele_urias_prietenos.jpg",
       "description": "În toiul nopţii, micuţa Sophie este înşfăcată din patul ei de un uriaş, iar primul ei gând este că va păți ceva rău. Dar uriaşul cu ochi scânteietori nu face decât să o ducă în peştera lui, unde, cu felul lui împleticit de a vorbi, i se prezintă: “Eu este singurul uriaş cumsecade şi zăpăcit din tot Tărâmul Uriaşilor. Eu este Marele Uriaş Prietenos. Eu este MUP.” Ba mai mult, Sophie află că MUP are o îndeletnicire nobilă şi misterioasă: colecţionează vise pe care le suflă în urechile copiilor adormiţi. În scurt timp însă puterile lui MUP vor fi puse la încercare, când Sophie şi noul ei prieten vor încerca să-i oprească pe uriaşii mâncători de oameni. Îndrăzneaţa misiune, la care va participă însăşi regina Angliei, îi va ţine pe cititori cu sufletul la gură şi le va stârni deopotrivă hohote copioase de râs.",
+      "stoc": 400,
       "id": 19
     },
     {
@@ -158,6 +177,7 @@
       "price": 39,
       "image": "Images/micul_print.jpg",
       "description": "„A fost odată ca niciodată un mic prinț care locuia pe o planetă abia cu un pic mai mare decât el și care avea nevoie de un prieten...» Pentru cei care înțeleg viața, asta ar fi părut mult mai adevărat. Fiindcă nu-mi place să mi se citească superficial cartea. E atât de dureros pentru mine să povestesc amintirile astea. Sunt șase ani deja de când prietenul meu a plecat, împreună cu oaia lui. Dacă mă străduiesc să-l descriu aici este ca să nu-l uit. E trist să-ți uiți un prieten. Nu toată lumea a avut un prieten.“ Antoine de Saint-Exupéry",
+      "stoc": 400,
       "id": 20
     },
     {
@@ -166,6 +186,7 @@
       "price": 30,
       "image": "Images/minciuni_si_spioni.jpg",
       "description": "Lucrurile nu merg prea bine pentru Georges: la școală nu are niciun prieten și unii colegii de clasă nu pierd nicio ocazie să se ia de el, iar acasă familia lui a fost nevoită să își vândă casa și să se mute la bloc. Aici se împrietenește cu Safer, băiatul de doisprezece ani care învață de acasă, și împreună înființează Clubul Spionilor. Prima lor misiune: să-l țină sub observație pe misteriosul Domn X de la etajul patru. Însă când situația scapă de sub control, Georges are de făcut o alegere grea: să îl ajute pe Safer și să-și păstreze prietenul sau să spună stop joc și să fie iar singur.",
+      "stoc": 400,
       "id": 21
     },
     {
@@ -174,6 +195,7 @@
       "price": 39,
       "image": "Images/noi_aventuri_cu_paddington.jpg",
       "description": "„Mie mi se întâmplă o sumedenie de lucruri, doar ştiţi“, mărturiseşte ursuleţul nostru în această carte. Lui Paddington, cele mai bune idei îi vin când nu are nimic de făcut. Şi atunci... ţine-te bine! Fie că încearcă să-şi redecoreze camera, să facă pe detectivul ori pe fotograful, fie că pur şi simplu merge la cumpărături, ursul venit tocmai din Întunecatul Peru reinventează haosul, aducându-l la o nouă dimensiune, marca Paddington.",
+      "stoc": 400,
       "id": 22
     },
     {
@@ -182,6 +204,7 @@
       "price": 34,
       "image": "Images/olguta_si_un_bunic_de_milioane.jpg",
       "description": "Olguţa e o puştoaică de doisprezece ani ca oricare alta. Bine, nu chiar ca oricare alta: e neîndemânatică, impertinentă, intră mereu în bucluc, nu prea are prieteni, iar familia ei e atât de dezbinată, încât nu-şi recunoaşte mătuşa când aceasta îşi face apariţia la uşă. Nu-i de mirare că Olguţei nu-i convine deloc când e nevoită să petreacă un weekend cu mătuşa pe care de-abia a cunoscut-o. Ba mai mult, Constantin, bunicul ei, ţine morţiş să o vadă. Şi nu are de gând să accepte un refuz.",
+      "stoc": 400,
       "id": 23
     },
     {
@@ -190,6 +213,7 @@
       "price": 33,
       "image": "Images/omul_de_zapada_care_voia_sa_intalneasca_soarele.jpg",
       "description": "Omului de zăpadă îi place să se joace cu copiii și să privească stelele. la fel de mult îi plac mirosul de fum care iese pe hornuri și murmurul pădurii. Are o mulțime de prieteni: iepuri, vulpi, chiar și un cerb. Dar nimeni nu i-a spus niciodată zăpada - chiar și cea din care este el făcut - se va topi odată cu venirea primăverii...",
+      "stoc": 400,
       "id": 24
     },
     {
@@ -198,6 +222,7 @@
       "price": 159,
       "image": "Images/pachet_cronicile_din_narnia.jpg",
       "description": "Pachetul conține următoarele titluri: Cronicile din Narnia. Nepotul magicianului (#1); Cronicile din Narnia. Leul, Vrăjitoarea și dulapul (#2); Cronicile din Narnia. Calul și băiatul (#3); Cronicile din Narnia. Prințul Caspian (#4); Cronicile din Narnia. Călătorie cu Zori de zi (#5). Pășește în dulap și intră în lumea magică a Narniei: un tărâm unic al centaurilor, faunilor, și al leului Aslan.",
+      "stoc": 400,
       "id": 25
     },
     {
@@ -206,6 +231,7 @@
       "price": 186,
       "image": "Images/pachet_integral_cronicile_din_narnia.jpg",
       "description": "Pachetul conține următoarele titluri: Cronicile din Narnia. Nepotul magicianului (#1); Cronicile din Narnia. Leul, Vrăjitoarea și dulapul (#2); Cronicile din Narnia. Calul și băiatul (#3); Cronicile din Narnia. Prințul Caspian (#4); Cronicile din Narnia. Călătorie cu Zori de zi (#5); Cronicile din Narnia. Jilțul de argint (#6); Cronicile din Narnia. Ultima bătălie (#7). Pășește în dulap și intră în lumea magică a Narniei: un tărâm unic al centaurilor, faunilor, și al leului Aslan.",
+      "stoc": 400,
       "id": 26
     },
     {
@@ -214,6 +240,7 @@
       "price": 111,
       "image": "Images/pachet_jurnalul_unui_pusti.jpg",
       "description": "Acest pachet Jurnalul unui Puști conține titlurile: Jurnalul unui puști 15: La ananghie; Jurnalul meu; JURNALUL UNUI PUȘTI TARE DE TREABĂ: Însemnările lui Rowley Jefferson.",
+      "stoc": 400,
       "id": 27
     },
     {
@@ -222,6 +249,7 @@
       "price": 88,
       "image": "Images/pachet_rostogol_3_volume.jpg",
       "description": "Pachetul Rostogol conține titlurile: Rostogol #1. Rostogol merge acasă; Rostogol #2. Rostogol păzește pepenii; Rostogol #3. Rostogol și vulcanii noroioși.",
+      "stoc": 400,
       "id": 28
     },
     {
@@ -230,6 +258,7 @@
       "price": 32,
       "image": "Images/palaria_vrajitorului.jpg",
       "description": "În Valea Mominilor vine primăvara. După o sută de zile și o sută de nopți de hibernare, Momi, Puftabac și Smiorc se trezesc puși pe fapte mari. Urcă degrabă pe cel mai înalt vârf de munte și găsesc un obiect neobișnuit: o pălărie neagră magică. Orice ajunge în interiorul pălăriei se transformă în altceva. În momicasă e mare zăpăceală, dar mominii, dornici de aventură, nu se sperie cu una, cu două. Pălăria Vrăjitorului e o poveste despre vietăți mai mici și mai măricele, despre întâmplări, unele nemaipomenit de frumoase, altele care-ți dau fiori, așa cum se cuvine ca să poți spune că ai avut o vară pe cinste.",
+      "stoc": 400,
       "id": 29
     },
     {
@@ -238,6 +267,7 @@
       "price": 33,
       "image": "Images/panza_charlottei.jpg",
       "description": "O păienjeniţă şi o copilă îşi unesc forţele pentru a salva cel mai straşnic porc care s-a născut vreodată.",
+      "stoc": 400,
       "id": 30
     },
     {
@@ -246,6 +276,7 @@
       "price": 35,
       "image": "Images/percy_jackson_si_olimpienii.jpg",
       "description": "Ameninţarea maleficului stăpân al timpului, titanul Cronos, este din ce în ce mai aproape. Percy Jackson, curajosul semizeu, se vede nevoit să pornească într-o nouă misiune periculoasă pentru a salva atât lumea muritorilor, cât şi pe cea a zeilor. Când în joc este soarta Olimpului şi a taberei semizeilor, soluţia rămasă este una dintre cele mai înfricoşătoare: traversarea Lumii Subpământene, în căutarea lui Dedal, geniul legendar al Antichităţii, singurul care îi poate ajuta pe Percy şi pe prietenii lui să oprească înaintarea armatei monştrilor prin Labirintul său.",
+      "stoc": 400,
       "id": 31
     },
     {
@@ -254,6 +285,7 @@
       "price": 34,
       "image": "Images/povestea_frindelului.jpg",
       "description": "Nicholas Allen e cel mai faimos puşti din şcoală: de pildă, toţi elevii ştiu cum, în plină iarnă, Nick a transformat sala de curs într-o insulă tropicală, iar profesorii se străduiesc să lupte cu talentul său vestit de a trage de timp la finalul orei, care-i face să uite de tema pentru acasă. Însă clasa a cincea vine cu o mare provocare: doamna Granger, sobra profesoară de limba engleză, maestra absolută a dicţionarelor, are şi ea talentele ei. Aşa că Nick se hotărăşte să dea culoare orelor plictisitoare, iar doamna Granger crede că poate să facă faţă şuvoiului de idei năstruşnice ale băiatului.",
+      "stoc": 400,
       "id": 32
     },
     {
@@ -262,6 +294,7 @@
       "price": 32,
       "image": "Images/povesti_la-telefon.jpg",
       "description": "A FOST ODATĂ CA NICIODATĂ…un tată care şase zile pe săptămână străbătea întreaga Italie, în lung și-n lat. Duminica se întorcea acasă, iar luni dimineaţa o lua de la capăt. Înainte de plecare, fetiţa lui întotdeauna îl ruga să nu uite să-i spună în fiecare seară o poveste, pentru că altfel nu putea adormi. Aşa se face că, oriunde se afla, seară de seară, la ora nouă fix, contabilul Bianchi dădea telefon acasă. Cartea de faţă cuprinde toate aceste povești ale domnului Bianchi: avem aici palate din îngheţată şi oameni de unt, un nas care fuge de pe chipul stăpânului, păpuşi bolnave de bombănită – povești una și una, desprinse parcă dintr-un timp în care nu mai există cuvântul „plâns“.",
+      "stoc": 400,
       "id": 33
     },
     {
@@ -270,6 +303,7 @@
       "price": 34,
       "image": "Images/povestile_bunicii.jpg",
       "description": "Poveşti clasice, într-o ediţie deosebită, cartonată, buretată, cu o ilustraţie spectaculoasă. Albă ca zăpada şi cei şapte pitici, Scufiţa Roşie, Pinocchio, Frumoasa din Pădurea Adormită şi alte basme ale bunicii, numai bune de citit la gura sobei.",
+      "stoc": 400,
       "id": 34
     },
     {
@@ -278,6 +312,7 @@
       "price": 19,
       "image": "Images/primii_ochelari_ai_peppei.jpg",
       "description": "Carte bazată pe serialul TV Peppa Pig. Peppa e sigură că are nevoie de ochelari, la fel ca prietenul ei de joacă, Poneiul Pedro. Așa că mămica Purceluș o duce la oftalmolog. Oare ce fel de ochelari va purta Peppa?",
+      "stoc": 400,
       "id": 35
     },
     {
@@ -286,6 +321,7 @@
       "price": 32,
       "image": "Images/secretul_doamnei_frankweiler.jpg",
       "description": "Jamie, un băieţel răsfăţat, şi Claudia, sora lui mai mare, aparent nedreptăţită de familie, fug de acasă în căutarea unui loc plăcut, larg şi frumos. Însă miza fugii lor ia o întorsătură neaşteptată şi nimeresc în miezul unei enigme născute de o sculptură achiziţionată recent de Muzeul Metropolitan de Artă din New York, despre care se bănuieşte că ar aparţine marelui Michelangelo. Aventurile prin care trec cei doi pentru a afla cât mai multe despre statuia Îngerului fac ca misterul Giocondei să pară o joacă de copii.",
+      "stoc": 400,
       "id": 36
     },
     {
@@ -294,6 +330,7 @@
       "price": 29,
       "image": "Images/sirul_pierdut_al_timpului.jpg",
       "description": "Penelope își dorește să devină scriitoare, dar nu are timp nici să relaxeze, darămite să pună pe hârtie fel de fel de povești. Apoi, într-o zi, așa cum Dorothy a fost purtată de o tornadă tocmai în țara lui Oz, la fel și Penelope se trezește pe Tărâmul Posibilității, unde copiii pot să viseze cât vor cu ochii deschiși. Aici, Ideile, Fanteziile și Grijile există în carne și oase. Nu pentru multă vreme: odată cu dispariția Marii Zăbovitoare, creatoarea tărâmului, nimeni nu mai are voie să piardă timpul, iar Ceasornicarii tiranului Cronos mișună peste tot și îți pândesc orice mișcare.",
+      "stoc": 400,
       "id": 37
     },
     {
@@ -302,6 +339,7 @@
       "price": 39,
       "image": "Images/viata_de_caine.jpg",
       "description": "Ca orice foxterier, Miki sare, prinde mingea și ronțăie zahăr. Știe să gândească, ba știe să și citească puțin. Preferatele lui sunt cărțile pentru copii. La un moment dat, nu se știe când și cum, s-a apucat de scris: cu creionul în gură și o labă așezată strategic pe caiet, să nu alunece. N-o fi știind el să ascută creioanele, dar are mintea brici – dovadă, chiar acest jurnal.",
+      "stoc": 400,
       "id": 38
     },
     {
@@ -310,6 +348,7 @@
       "price": 38,
       "image": "Images/vrajitorul_din_oz.jpg",
       "description": "Luată pe sus de o tornadă, împreună cu Toto, cățelușul ei, dar și cu mica lor casă din Kansas, Dorothy ajunge pe tărâmul fantastic al lui Oz. Lumea presărată cu muchinezi jucăuși, păduri fermecate, căsuțe din proțelan și vrăjitoare îi pune la numeroase încercări pe Dorothy și pe noii ei tovarăși de drum: Sperie-Ciori, Omul de Tinichea și Leul cel Laș. Însă călătorii sunt foarte hotărâți: vor să ajungă la Cetatea de Smarald și să-l cunoască pe Marele Vrăjitor. Dar cine este Oz și ce poate face el pentru musafirii temerari?",
+      "stoc": 400,
       "id": 39
     },
     {
@@ -318,6 +357,7 @@
       "price": 24,
       "image": "Images/wilson_zevzecul.jpg",
       "description": "Wilson Zevzecul ne aduce în prima jumătate a veacului 1800, într-un târguşor de pe malul râului Mississippi, Dawson's Landing. Aici o întâlnim pe Roxy, o sclavă mulatră, având în vene doar a şaisprezecea parte din sângele strămoşilor ei negri, care are grijă de copilul stăpânului ei Tom Driscoll, născut în aceeaşi zi cu propriul ei copil, Chambers. Hotărâtă să-şi ferească pruncul de soarta nefericită pe care i-o rezervă statutul de sclav negru, Roxy îi schimbă în leagăn pe cei doi copii.",
+      "stoc": 400,
       "id": 40
     }
   ]

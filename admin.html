@@ -15,7 +15,7 @@
         <a href="index.html"><div class="logo"></div></a>
         <div class="navbar-btns">
             <a href="cart.html"><button type="button" class="shopping-cart-btn"><i class="fa fa-shopping-cart"></i> COS CUMPARATURI</button></a>
-            <a href="index.html"><button type="button" class="home-section-btn"><i class="fa fa-home"></i> ACASA</button></a>
+            <a href="#add-section"><button type="button" class="home-section-btn"><i class="fa fa-plus"></i> ADAUGA PRODUS</button></a>
         </div>
     </navbar>
     <div class="admin-container">
@@ -46,13 +46,14 @@
                 <tbody id="table-body"></tbody>
             </table>
         </div>
-        <div class="card card-body card-form">
+        <div class="card card-body card-form" id="add-section">
             <h3>Adaugare produs</h3>
             <div class="form-group">
                 <input type="text" id="image" class="form-control" placeholder="product image"/>
                 <input type="text" id="title" class="form-control" placeholder="product title"/>
                 <input type="text" id="author" class="form-control" placeholder="product author"/>
                 <input type="text" id="price" class="form-control" placeholder="product price"/>
+                <input type="text" id="stoc" class="form-control" placeholder="products in stoc"/>
                 <textarea type="text" id="description" class="form-control" placeholder="product description"></textarea>
                 <button class="btn btn-secondary btn-block" id="add-product">Adauga produs</button>
             </div>
