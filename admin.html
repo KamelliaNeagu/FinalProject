@@ -14,8 +14,8 @@
     <navbar id="navbar">
         <a href="index.html"><div class="logo"></div></a>
         <div class="navbar-btns">
-            <a href="cart.html"><button type="button" class="shopping-cart-btn"><i class="fa fa-shopping-cart"></i> COS CUMPARATURI</button></a>
-            <a href="#add-section"><button type="button" class="home-section-btn"><i class="fa fa-plus"></i> ADAUGA PRODUS</button></a>
+            <a href="cart.html"><button type="button" class="shopping-cart-btn"><i class="fa fa-shopping-cart"></i> COȘ CUMPĂRĂTURI</button></a>
+            <a href="#animation-section"><button type="button" class="home-section-btn"><i class="fa fa-plus"></i> ADAUGĂ PRODUS</button></a>
         </div>
     </navbar>
     <div class="admin-container">
@@ -33,31 +33,49 @@
                             Autor
                         </th>
                         <th>
-                            Pret
+                            Preț
                         </th>
                         <th>
                             Cantitate
                         </th>
                         <th>
-                            Sterge
+                            Șterge
                         </th>
                     </tr>
                 </thead>
                 <tbody id="table-body"></tbody>
             </table>
         </div>
-        <div class="card card-body card-form" id="add-section">
-            <h3>Adaugare produs</h3>
-            <div class="form-group">
-                <input type="text" id="image" class="form-control" placeholder="product image"/>
-                <input type="text" id="title" class="form-control" placeholder="product title"/>
-                <input type="text" id="author" class="form-control" placeholder="product author"/>
-                <input type="text" id="price" class="form-control" placeholder="product price"/>
-                <input type="text" id="stoc" class="form-control" placeholder="products in stoc"/>
-                <textarea type="text" id="description" class="form-control" placeholder="product description"></textarea>
-                <button class="btn btn-secondary btn-block" id="add-product">Adauga produs</button>
+        <div class="head" id="animation-section">
+            <div class="eye_white">
+                <ul>
+                    <li><div class="eye_black"></div></li>
+                    <li><div class="eye_black"></div></li>
+                </ul>
+            </div>
+            <div class="white">
+                <div class="line_left"></div>
+                <div class="line_right"></div>
+                <div class="nose"></div>
+                <div class="line_vertical"></div>
+                <div class="mouth"></div>
             </div>
         </div>
+        <div class="card card-body card-form">
+            <h3>Adăugare produs</h3>
+            <div class="form-group">
+                <input type="text" id="image" class="form-control" placeholder="imagine"/>
+                <input type="text" id="title" class="form-control" placeholder="titlu"/>
+                <input type="text" id="author" class="form-control" placeholder="autor"/>
+                <input type="text" id="price" class="form-control" placeholder="preț"/>
+                <input type="text" id="stoc" class="form-control" placeholder="produse în stoc"/>
+                <textarea type="text" id="description" class="form-control" placeholder="descriere"></textarea>
+                <button class="btn btn-secondary btn-block" id="add-product">ADAUGĂ PRODUS</button>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <p id="footer-text">Toate drepturile rezervate © Books to Grow With<span id="footer-span">Powered by Neagu Kamellia</span></p>
     </div>
 <script src="src/app.js" type="module"></script>
 <script src="src/admin.js" type="module"></script>

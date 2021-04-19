@@ -21,7 +21,7 @@ class UI {
     showProducts(products) {
         let output = '';
         products.forEach((product) => {
-            output = `
+            output += `
             <div class="card elegant-color">
                 <div class="view overlay hm-white-slight"><img class="img-fluid" src="${product.image}" alt="...">
                 </div>
@@ -32,7 +32,7 @@ class UI {
                 </div>
             </div>
             `;
-            this.productsDiv.innerHTML += output;
+            this.productsDiv.innerHTML = output;
         });
     }
 
@@ -46,12 +46,12 @@ class UI {
                         <h1 class="card-title">${product.title}</h1>
                         <h2 class="card-author">Autor: ${product.author}</h2>
                         <p class="card-description">Descriere: ${product.description}</p>
-                        <h2 class="card-author">In stoc: ${product.stoc} buc.</h2>
+                        <h2 class="card-author">În stoc: ${product.stoc} buc.</h2>
                         <h2 class="card-author">Cantitate:<input id="quantity" type="number" value="1" min="1" max="100"></h2>
                     </div>
                     <div class="product-price-btn">
                         <p><span class="product-price">${product.price} Lei</span></p>
-                        <button id="addtocartBtn" type="button">Adauga in cos</button>
+                        <button id="addtocartBtn" type="button">Adaugă în coș</button>
                     </div>
                 </div>
                 `;
@@ -65,7 +65,7 @@ class UI {
                     }
                     addProductsInLocalStorage(product, count);
                     Swal.fire({
-                        title: 'Produsul a fost adaugat in cos!',
+                        title: 'Produsul a fost adăugat în coș!',
                         showClass: {
                           popup: 'animate__animated animate__fadeInDown'
                         },
@@ -75,8 +75,7 @@ class UI {
                       })
                       });
     }
-
-                            
+                      
     showAdminProducts(products) {
         let output = '';
         products.forEach((product) => {
@@ -87,7 +86,7 @@ class UI {
                         <td>${product.author}</td>
                         <td>${product.price}</td>
                         <td>${product.stoc}</td>
-                        <td><button class="removeBtn delete" id="${product.id}">Sterge</button></td>
+                        <td><button class="removeBtn delete" id="${product.id}">Șterge</button></td>
                     </tr>
             `;
             this.tableBody.innerHTML += output;
@@ -105,7 +104,8 @@ class UI {
                         <a href="details.html?id=${item.product.id}"<td>${item.product.title}</td></a>
                         <td>${item.product.price}</td>
                         <td><input value=${item.count} type="number" min="1" max="10"/></td>
-                        <td><button id=${item.product.id} type="button" class="removeBtn delete" onclick="removeBtn delete">Sterge</button></td>
+                        <td id="subtotal">${item.product.price*item.count}</td>
+                        <td><button id=${item.product.id} type="button" class="removeBtn delete" onclick="removeBtn delete">Șterge</button></td>
                     </tr>
                 </tbody>
            </table>
@@ -123,6 +123,7 @@ class UI {
                 let count = parseInt(e.target.value);
                 if(!isNaN(count) && count > 0) {
                     updateQuantityInLocalStorage(productId, count);
+                    return window.location.reload();
                 } else {
                     let storageElement = getElementFromLocalStorage(productId);
                     e.target.value = storageElement.count;
@@ -132,9 +133,9 @@ class UI {
             removeButton.addEventListener('click', (e) => {
                 removeElementFromLocalStorage(e.target.id);
                 row.remove();
+                return window.location.reload();
             });  
         });
-
     }
 }
 
