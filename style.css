@@ -69,39 +69,18 @@ body {
 /* Index */
 
 #mainpage {
-    display: flex;
-    height: 500px;
-    width: 100%;
-    padding-left: 180px;
-    padding-top: 15px;
-}
-
-#banner-left {
     background-image: url(OtherImages/banner.jpg);
     background-size: cover;
     background-repeat: no-repeat; 
     background-position: center;
+    border-radius: 10%;
     display: block;
+    align-items: center;
+    justify-content: center;
     height: 500px;
     width: 700px;
-}
-
-#banner-right-up {
-    background-image: url(OtherImages/image7.jpg);
-    background-size: cover;
-    background-repeat: no-repeat; 
-    background-position: center;
-    height: 250px;
-    width: 300px;
-}
-
-#banner-right-down {
-    background-image: url(OtherImages/image5.jpg);
-    background-size: cover;
-    background-repeat: no-repeat; 
-    background-position: center;
-    height: 250px;
-    width: 300px;
+    margin-left: 330px;
+    margin-top: 30px;
 }
 
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
@@ -407,12 +386,23 @@ table tr:hover {background-color: #aaaaaa;}
     background-size: cover;
     background-repeat: no-repeat; 
     background-position: center;
-    border-radius: 20px;
-    margin-top: 20px;
+    border-radius: 50%;
+    margin-top: 30px;
     margin-bottom: 100px;
-    margin-left: 450px;
+    margin-left: 400px;
     height: 300px;
-    width: 350px;
+    width: 500px;
+}
+
+#buyProducts {
+    border: none;
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    margin-top: 170px;
+    margin-left: 160px;
 }
 
 /* Admin animation */
@@ -660,6 +650,7 @@ table tr:hover {background-color: #aaaaaa;}
 
 #footer-text, #footer-span {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: gray;
 }
 
 

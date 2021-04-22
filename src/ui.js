@@ -98,8 +98,8 @@ class UI {
             storageItems.forEach((item) => {
             output = `
             <table id="table-cart">
-                <tbody id="table-body">
-                    <tr>
+                <tbody id="tablecart-body">
+                    <tr id="cart-row">
                         <td><img src="${item.product.image}" class="admin-card-img"</td>
                         <a href="details.html?id=${item.product.id}"<td>${item.product.title}</td></a>
                         <td>${item.product.price}</td>

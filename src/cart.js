@@ -17,9 +17,29 @@ function getCartTotal (storageItems) {
 	}
 	console.log(total);
 	addEventListener('DOMContentLoaded', () => {
-		document.getElementById("total").innerHTML += total + " " + "Lei";
+		document.getElementById('total').innerHTML += total + " " + "Lei";
 		
 	});
 	return total;
 }
+
+let buyProducts = document.getElementById('buyProducts');
+
+buyProducts.addEventListener('click', () => {
+	let storageItems = getCartFromLocalStorage();
+	if(storageItems == 0) {
+		Swal.fire({
+			icon: 'error',
+			title: 'Oops...',
+			text: 'Coșul dumneavoastră este gol!',
+			footer: '<a href ="index.html">Adăugați produse în coș!</a>'
+		})
+	} else {
+		Swal.fire(
+			'Vă mulțumim!',
+			'Comandă recepționată.',
+			'success'
+		)
+	} 
+});
 

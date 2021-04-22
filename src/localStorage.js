@@ -1,4 +1,4 @@
-const localStorageKey = "selectedProducts"
+// const localStorageKey = "selectedProducts"
 
 class StorageItem {
 	constructor(count, product) {

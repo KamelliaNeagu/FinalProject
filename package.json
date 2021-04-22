@@ -26,6 +26,7 @@
   },
   "homepage": "https://github.com/KamelliaNeagu/FinalProject#readme",
   "dependencies": {
+    "animate.css": "^4.1.1",
     "bootstrap": "^4.6.0",
     "bootswatch": "^4.6.0",
     "cart-localstorage": "^1.1.5",
