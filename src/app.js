@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 function getProducts() {
     http
-        .get('http://localhost:3000/products')
+        .get('https://60872b8ca3b9c200173b7b27.mockapi.io/products')
         .then((data) => ui.showProducts(data));
 }
 
@@ -33,7 +33,7 @@ function addNewProduct() {
     };
 
     http
-        .post('http://localhost:3000/products', product)
+        .post('https://60872b8ca3b9c200173b7b27.mockapi.io/products', product)
         .then((data) => getProducts());
 }
 
@@ -42,7 +42,7 @@ document.getElementById('products-admin').addEventListener('click', deleteProduc
 function deleteProduct(e) {
     if(e.target.classList.contains('delete')) {
         const id = e.target.id;
-        http.delete(`http://localhost:3000/products/${id}`)
+        http.delete(`https://60872b8ca3b9c200173b7b27.mockapi.io/products/${id}`)
         .then((data) => getProducts())
         .catch('Error on delete!')
     }
