@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 function getProducts() {
     http
-        .get('https://60872b8ca3b9c200173b7b27.mockapi.io/products')
+        .get("https://60872b8ca3b9c200173b7b27.mockapi.io/products")
         .then((data) => ui.showProducts(data));
 }
 
@@ -33,7 +33,7 @@ function addNewProduct() {
     };
 
     http
-        .post('https://60872b8ca3b9c200173b7b27.mockapi.io/products', product)
+        .post("https://60872b8ca3b9c200173b7b27.mockapi.io/products", product)
         .then((data) => getProducts());
 }
 
