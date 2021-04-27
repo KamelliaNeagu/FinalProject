@@ -2,7 +2,7 @@
 
 Online ecommerce platform
 
-### Project version 
+<!-- ### Project version 
 1.0.0
 
 ### Project init
@@ -12,4 +12,8 @@ Online ecommerce platform
 `$ npm install --save json-server`
 `$ npm install -g json-server`
 ### Start JSON Server
-`JSON-server --watch api/db.json`
+`JSON-server --watch api/db.json` -->
+
+# Direct link
+
+https://bookstogrowwith.netlify.app/
